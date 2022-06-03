@@ -1,3 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto&display=swap");
+.button {
+  display: block;
+  width: 188px;
+  height: 88px;
+  border: 2px solid #394167;
+  text-decoration: none;
+  text-align: center;
+  line-height: 88px;
+  font-weight: bold;
+  font-size: 2em;
+  font-kerning: normal;
+  /* Todo: add border radius */
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -9,3 +24,15 @@ html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockq
   padding: 0;
   border: 0;
 }
+
+body {
+  max-width: 750px;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+  color: #394167;
+}
+
+/* h1, h2, h3, p, goes here*/
+/* maybe use IBM plex sans? */
