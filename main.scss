@@ -1,7 +1,7 @@
-@use './sass/buttons' ;
-@use './sass/layout-footer';
-@use './sass/layout-header';
-@use './sass/layout-main';
-@use './sass/reset';
-@use './sass/typography';
-@use './sass/variables';
+@import './sass/variables';
+@import './sass/buttons' ;
+@import './sass/layout-footer';
+@import './sass/layout-header';
+@import './sass/layout-main';
+@import './sass/reset';
+@import './sass/typography';
