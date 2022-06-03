@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto&display=swap');
+
+$font-body: "Roboto", sans-serif;
+
+* {
+    font-family: $font-body;
+    color: $color-primary;
+}
+
+/* h1, h2, h3, p, goes here*/
