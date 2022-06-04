@@ -1,0 +1,17 @@
+header {
+    background-color: $color-white;
+    display:flex;
+    justify-content: space-between;
+
+    img {
+        margin-top:45px;
+        margin-left:45px;
+        height:125px;
+    }
+
+    .button{
+        margin-top: 60px;
+        margin-right:50px;
+    }
+
+}
