@@ -1,10 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto&display=swap');
-
-$font-body: "Roboto", sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&family=Nunito:wght@800&display=swap");
 
 * {
-    font-family: $font-body;
-    color: $color-primary;
+  font-family: "IBM Plex Sans", sans-serif;
+  color: $color-primary;
+}
+
+h1 {
+  font-family: "Nunito", sans-serif;
 }
 
 /* h1, h2, h3, p, goes here*/
+
+/* maybe use IBM plex sans? */
