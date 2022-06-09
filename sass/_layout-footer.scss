@@ -1,0 +1,15 @@
+footer {
+    background-color: $color-yellow;
+    margin-top: 150px;
+
+    a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 108px;
+        color: $color-primary;
+        font-size: 240%;
+        text-decoration: none;
+    }
+
+}
