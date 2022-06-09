@@ -54,7 +54,7 @@ main {
     display: grid;
     justify-content: center;
     grid-template-columns: repeat(2, 333px);
-    grid-template-rows: 40px repeat(4, 190px) 150px;
+    grid-template-rows: 100px repeat(4, 190px) 150px;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
 
@@ -62,11 +62,11 @@ main {
         grid-column-start: 1;
         grid-column-end: 3;
         grid-row-start: 1;
-        grid-row-end: span 2;
-        max-width: 575px;
+        grid-row-end: 2;
         margin: auto;
+        margin-top: 0;
         font-size: 2.5em;
-        text-align: center;
+        text-align: top;
     }
 
     p,
