@@ -1,4 +1,5 @@
 $button-height: 88px;
+
 .button {
     display: block;
     width: 188px;
@@ -10,6 +11,15 @@ $button-height: 88px;
     line-height: $button-height;
     font-weight: bold;
     font-size: 2em;
-    font-kerning:normal;
+    font-kerning: normal;
     /* Todo: add border radius */
+}
+
+.navy-button {
+    width: 372px;
+    height: 90px;
+    margin: auto;
+    margin-top: 70px;
+    color: white;
+    background-color: $color-primary;
 }

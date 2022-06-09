@@ -46,15 +46,6 @@ main {
         font-size: 1.5em;
         text-align: center;
     }
-
-    a {
-        width: 372px;
-        height: 90px;
-        margin: auto;
-        margin-top: 70px;
-        color: white;
-        background-color: $color-primary;
-    }
 }
 
 #content-2 {
@@ -93,9 +84,53 @@ main {
     }
 
     img {
-        height: 250px;
-        overflow: visible;
-        display: flex;
-        align-items: center;
+        position: relative;
+        bottom: 25%;
+        /* 
+            Measured penguin sizes from specification
+            w x h, in px
+            1) 210 x 245
+            2) 234 x 279
+            3) 251 x 199
+            4) 252 x 221
+
+            Penguin heights will be defined relative to the height of penguin 1
+            This will allow the heights to be adjusted easily while staying the same ratio
+
+            1) height = 1.00 * $height-penguin-one
+            2) height = 1.14 * $height-penguin-one
+            3) height = 0.81 * $height-penguin-one
+            3) height = 0.90 * $height-penguin-one
+        */
+        $height-penguin-one: 230px;
+
+        &:nth-child(3) {
+            /* Penguin 1 */
+            height: $height-penguin-one;
+        }
+
+        &:nth-child(4) {
+            /* Penguin 2 */
+            height: 1.14 * $height-penguin-one;
+        }
+
+        &:nth-child(7) {
+            /* Penguin 3 */
+            height: 0.81 * $height-penguin-one;
+            bottom: 10%;
+        }
+
+        &:nth-child(8) {
+            /* Penguin 4 */
+            height: 0.90 * $height-penguin-one;
+            bottom: 10%;
+        }
+    }
+
+    .button {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 7;
+        grid-row-end: span 8;
     }
 }
